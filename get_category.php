@@ -12,6 +12,7 @@ foreach($jsonData as $cate){
 	  }
 	}
 }
+
 echo "<pre>";
 print_R(array_unique($procat));
 echo "</pre>";
